@@ -13,3 +13,8 @@ Additionally, the notebook provides functionality for singular custom prediction
 
 ### Data Bounds
 Only data from 2020–2024 is included in this repository to focus on predicting current play-calling patterns. Including earlier data tended to negatively influence accuracy results. However, you can adjust these bounds by downloading and cleaning the appropriate `.csv` files from the [nflverse GitHub collection](https://github.com/nflverse/nflverse-data/releases/tag/pbp), and altering the `for year in range(2020, 2024):` line in either file.
+
+### Requirements
+Use of `MLProject.ipynb`/`MLProject.py` may require the pip installation of the scikit-learn Python module that was imported to create the machine learning models. This can be accomplished by inputting the following line into the Command Prompt:
+
+`pip install scikit-learn`
